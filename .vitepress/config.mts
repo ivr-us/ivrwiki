@@ -5,7 +5,7 @@ import { type DefaultTheme } from 'vitepress'
 export default defineConfig({
   title: "IVR Wiki",
   description: "Anleitungen, Konfigurationen, etc.",
-  base: '/ivr-wiki/',
+  base: '/ivrwiki/',
   themeConfig: {
     // https://vitepress.dev/it/default-theme-config
     nav: nav(),
