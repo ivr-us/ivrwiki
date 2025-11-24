@@ -15,6 +15,6 @@ Open the file explorer program
 After successful installation head to the [Printer Settings](ms-settings:printers) once again
     Click on the new printer "Ricoh in dr-us-1" or something similar
     Click on Druckeinstellungen
-    At the top right, click Anwendercode
+    <Popover text="At the top right, click Anwendercode" path="/ricoh-anwendercode.png" :width="600"/>
     Type in your departments code.
 

@@ -16,7 +16,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/ronjar/ivrwiki' }
+      { icon: 'github', link: 'https://github.com/ivr-us/ivrwiki' }
     ]
   }
 })
@@ -46,6 +46,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: 'Software',
           collapsed: false,
           items: [
+            { text: 'Outlook', link: 'software/outlook' },
             { text: 'GitHub', link: 'software/github' },
             { text: 'VSCode', link: 'software/vscode' }
           ]
