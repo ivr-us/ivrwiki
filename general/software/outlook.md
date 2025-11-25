@@ -14,6 +14,7 @@ Make sure to always use the Outlook installed with Microsoft Office, often calle
 2. In the Text field type in your ivr-Address, so firstname.lastname@ivr.uni-stuttgart.de
 3. Select `Advanced options` and tick `Let me set up my account manually`
 4. Now select `Exchange` (not the 2013 version)
-5. Wait (takes a few minutes sometimes). If a small <Popover text="Pop-up" path="/outlook-allow-configuration-by-server.png" :width="500"/> shows, tick the checkbox and select `Allow`.
+5. Wait (takes a few minutes sometimes). If a small <Popover text="Pop-up" path="/outlook-config-allow-server.png" :width="500"/> shows, tick the checkbox and select `Allow`.
 6. After some more time, a <Popover text="User Access Control dialog" path="/uac-dialog.png" /> will show. As username enter your ac in long form (`acXXXXXX@uni-stuttgart.de`) and the password of your ac. Tick the `Remember my credentials` box and click `OK`.
-7. In the last dialog for the sync time slide the slider all to the right and click `OK`.
+7. In the <Popover text="dialog for the sync time" path="/outlook-config-sync.png" /> slide the slider all to the right and click `OK`.
+8. On the last <Popover text="finishing up dialog" path="/outlook-config-finish.png" /> just deselect the `Outlook Mobile` stuff and press the blue button.
