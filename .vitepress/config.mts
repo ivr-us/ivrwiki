@@ -76,6 +76,14 @@ function sidebarIT(): DefaultTheme.SidebarItem[] {
             { text: 'Admin cmd', link: 'info/admin-cmd' },
             { text: 'Device naming', link: 'info/device-naming-scheme' }
           ]
+        },
+        {
+          text: 'Server',
+          collapsed: false,
+          items: [
+            { text: 'SSH and RDP setup (Windows client)', link: 'server/ssh_rdp_windows' },
+            { text: 'XXRDP setup (Ubuntu server)', link: 'server/xrdp_mate' }
+          ]
         }
       ]
     }
