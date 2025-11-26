@@ -25,7 +25,7 @@ Windows does not have the `ssh-copy-id` tool found on Linux, so we have to do it
 Run this command to send the public key contents directly to the server's authorized list:
 
 ```powershell
-type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh richard@141.58.162.118 "cat >> .ssh/authorized_keys"
+type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh your_username@server.ivr.uni-stuttgart.de "cat >> .ssh/authorized_keys"
 ```
 *It will ask for your Linux user password one last time.*
 
@@ -40,7 +40,7 @@ If you already disabled passwords, you cannot send the key via PowerShell.
 Verify that the key works. In PowerShell:
 
 ```powershell
-ssh richard@141.58.162.118
+ssh your_username@server.ivr.uni-stuttgart.de
 ```
 
 *   **Success:** You log in without typing a password (or only typing the key passphrase if you set one).
@@ -56,7 +56,7 @@ This is what you will do every time you want to work on the server.
 1.  Open PowerShell.
 2.  Run the tunnel command:
     ```powershell
-    ssh -L 33389:127.0.0.1:3389 richard@141.58.162.118
+    ssh -L 33389:127.0.0.1:3389 your_username@server.ivr.uni-stuttgart.de
     ```
     *   `-L` means "Local Forward".
     *   It maps port `33389` on your Windows machine -> `127.0.0.1:3389` on the Ubuntu server.
@@ -72,7 +72,7 @@ This is what you will do every time you want to work on the server.
 3.  Click **Connect**.
 4.  **The Login Screen:**
     *   You will see the XRDP login box.
-    *   **username:** `richard`
+    *   **username:** `your_username`
     *   **password:** Your **Linux Password** (not the SSH key passphrase).
 5.  You should now see your MATE desktop.
 
@@ -86,7 +86,7 @@ To avoid typing the ssh command every time, create a shortcut file.
     ```batch
     @echo off
     echo Starting SSH Tunnel to Ubuntu Server...
-    ssh -L 33389:127.0.0.1:3389 richard@141.58.162.118
+    ssh -L 33389:127.0.0.1:3389 your_username@server.ivr.uni-stuttgart.de
     pause
     ```
 3.  Save the file to your Desktop as `Connect-Server.bat` (Make sure "Save as type" is "All Files").

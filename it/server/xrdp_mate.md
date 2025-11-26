@@ -1,4 +1,4 @@
-# XRDP setup (Ubuntu Mate server) <Badge type="tip" text="Windows" />
+# XRDP setup (Ubuntu server) <Badge type="tip" text="Windows" />
 
 Here is the step-by-step guide to setting up XRDP with MATE, securing it so it is **only** accessible via SSH tunnel, and connecting from Windows.
 
@@ -95,7 +95,7 @@ Send these instructions to your Windows users. They do not need to install anyth
 1.  On Windows, press **Start** and type `PowerShell`. Open it.
 2.  Run the following command (replace `username` and `server-ip`):
     ```powershell
-    ssh -L 33389:127.0.0.1:3389 username@server-ip
+    ssh -L 33389:127.0.0.1:3389 your_username@server.ivr.uni-stuttgart.de
     ```
 3.  Enter your password when prompted.
 4.  **Keep this PowerShell window open.** (You can minimize it).
