@@ -92,7 +92,7 @@ function sidebarIT(): DefaultTheme.SidebarItem[] {
           collapsed: false,
           items: [
             { text: 'SSH and RDP setup (Windows client)', link: 'server/ssh_rdp_windows' },
-            { text: 'XXRDP setup (Ubuntu server)', link: 'server/xrdp_mate' }
+            { text: 'XRDP setup (Ubuntu server)', link: 'server/xrdp_mate' }
           ]
         }
       ]
