@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { type DefaultTheme } from 'vitepress'
 
+process.env.VITE_EXTRA_EXTENSIONS = 'sh'
+
 // https://vitepress.dev/it/site-config
 export default defineConfig({
   title: "IVR Wiki",
@@ -49,6 +51,14 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
             { text: 'Outlook', link: 'software/outlook' },
             { text: 'GitHub', link: 'software/github' },
             { text: 'VSCode', link: 'software/vscode' }
+          ]
+        },
+        {
+          text: 'Server',
+          collapsed: false,
+          items: [
+            { text: 'SSH setup (macOS)', link: 'server/ssh_macos' },
+            { text: 'RDP setup (macOS)', link: 'server/rdp_macos' }
           ]
         }
       ]
