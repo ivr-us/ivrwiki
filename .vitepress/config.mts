@@ -45,12 +45,20 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
       text: 'General',
       items: [
         {
+          text: 'Devices',
+          collapsed: false,
+          items: [
+            { text: 'Ricoh Counter (DE)', link: 'devices/ricoh-counter' },
+          ]
+        },
+        {
           text: 'Software',
           collapsed: false,
           items: [
             { text: 'Outlook', link: 'software/outlook' },
             { text: 'GitHub', link: 'software/github' },
-            { text: 'VSCode', link: 'software/vscode' }
+            { text: 'VSCode', link: 'software/vscode' },
+            { text: 'VPN', link: 'software/vpn' }
           ]
         },
         {
