@@ -36,7 +36,7 @@ To use network drives, etc. the device has to be in the domain.
 4. Click on `Ändern`
 5. Select `Domäne`
 6. Type in `uni-stuttgart.de`
-7. When clicking on `OK`, in the User Access Control Popup type in the Domain Administrator (ad..., ask Susanne Becker) credentials.
+7. When clicking on `OK`, in the User Access Control Popup type in the Domain Administrator (adXXXXXX) credentials.
 8. After clicking `OK` again, click confirm the restart dialog
 
 ![Domain Dialog](/domain-dialog.png)

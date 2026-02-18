@@ -5,7 +5,7 @@ Devices in out department are given the following way:
 `IVR-[1-4]-[PC/NB/TB][XX]`
 
 :::tip
-If you are unsure of the last number, ask the Domain Administrator (Susanne Becker) to tell you
+If you are unsure of the last number, ask the Domain Administrator to tell you
 :::
 
 ## Examples

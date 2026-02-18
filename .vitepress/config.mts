@@ -48,6 +48,7 @@ function sidebarGeneral(): DefaultTheme.SidebarItem[] {
           text: 'Devices',
           collapsed: false,
           items: [
+            { text: 'Printer setup', link: 'devices/ricoh-printer' },
             { text: 'Ricoh Counter (DE)', link: 'devices/ricoh-counter' },
           ]
         },
@@ -92,7 +93,8 @@ function sidebarIT(): DefaultTheme.SidebarItem[] {
           collapsed: false,
           items: [
             { text: 'Admin cmd', link: 'info/admin-cmd' },
-            { text: 'Device naming', link: 'info/device-naming-scheme' }
+            { text: 'Device naming', link: 'info/device-naming-scheme' },
+            { text: 'Password Management', link: 'info/passwords' }
           ]
         },
         {
